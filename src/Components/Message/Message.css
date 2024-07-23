@@ -1,0 +1,95 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #d85b5b;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+/*ESTILOS DE LOS MENSAJES*/
+
+.message {
+    width: 60%;
+    margin-bottom: 12px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    clear: both;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    color: #ebe3e3;
+}
+
+.message .author {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.message .content {
+    margin-top: 20px;
+    color: rgb(244, 238, 238);
+    max-height: 60vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+.message .date,
+.message .status {
+    font-size: 11px;
+    color: #888;
+    position: absolute;
+    bottom: 2px;
+    right: 20px;
+}
+
+.message .status {
+    bottom: 1px;
+    right: 5px;
+}
+
+.message .message-left {
+    background-color: #cccccc;
+    float: left;
+    border-bottom-left-radius: 0px;
+    color: white;
+}
+
+.message .message-right {
+    background-color: #c6c4ce;
+    float: right;
+    border-bottom-right-radius: 0px;
+}
+
+/* .content-message {
+    background-image: url(/src/assets/Images/fondooscuro.jpeg);
+    padding: 20px;
+    padding-top: 90px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    position: relative;
+} */
+
+/* .content-message {
+    margin-top: 20px;
+    color: gray;
+    max-height: 60vh;
+    overflow-y: auto;
+} */
+
+/* h1 {
+    background-color: rgb(10, 10, 10);
+    border-radius: 2px, 0px, 2px, 0;
+    height: 50px;
+    width: 100%;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+} */

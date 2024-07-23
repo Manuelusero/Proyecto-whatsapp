@@ -1,0 +1,111 @@
+.content-chats {
+    background-image: url(/src/assets/Images/fondooscuro.jpeg);
+    width: 420px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.info-contact {
+    background-color: #4f976a;
+    padding: 12px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.info-contact .icons {
+    margin-left: auto;
+}
+
+.info-contact .icons i {
+    margin-left: 12px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.info-contact .bi-chevron-left {
+    margin-left: -5px;
+}
+
+.user-pic {
+    width: 40px;
+    border-radius: 50%;
+    margin: 0 12px;
+}
+
+.info-contact .user-name {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+/* ESTILOS DE LOS MENSAJES*/
+
+.messages {
+    height: 510px;
+    overflow-y: auto;
+    padding: 15px 20px 70px;
+}
+
+.write-message {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #cccccc;
+}
+
+.write-message input::placeholder {
+    font-size: 16px;
+    color: #7f7f7f;
+}
+
+.write-message .btn-send {
+    background-color: #3c9a32;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    margin-left: 10px;
+}
+
+.content-input {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    background-color: #f2ebfb;
+    border-radius: 25px;
+    padding: 8px;
+}
+
+.content-input input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.btn-adjunt {
+    background-color: #6247aa;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.icono-emoji {
+    font-size: 22px;
+    color: #7f7f7f;
+    margin-right: 5px;
+}
+
+.icono-enviar {
+    font-size: 20px;
+    color: #fff;
+}
