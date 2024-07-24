@@ -3,17 +3,18 @@ import './Message.css'
 
 const Message = ({ author, content, date, status }) => {
     const classMessage = author === 'yo' ? 'message-right' : 'message-left';
-    const statusMessage = status === 'visto'
+    const statusMessage = status === 'visto' ? 'visto' : 'no-visto';
 
     return (
-        <div className={`message ${classMessage}`}>
+        <div className={`mensaje ${classMessage}`} >
             <span className="author">{author}</span>
             <p className="content">{content}</p>
             <span className="date">{date}</span>
-            <span className={classMessage}>
-                <i className={statusMessage === 'no entregado' ? "bi bi-check" : "bi bi-check-all"}></i>
+            <span className={statusMessage}>
+                <i className={status === 'no entregado' ? "bi bi-check" : "bi bi-check-all"}></i>
             </span>
         </div>
+
     );
 }
 
