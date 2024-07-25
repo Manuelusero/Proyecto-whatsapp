@@ -1,38 +1,43 @@
 import React, { useState } from "react";
-import { ContentChats } from "../../Components";
 import { useParams } from "react-router-dom";
-import { obtenerDatosPorId } from "../../helpers/mensajes";
+import ContentChats from "../../Components/ContentChats/ContentChats";
 import Message from "../../Components/Message/Message";
 import MessageForm from "../../Components/MessageForm/MessageForm";
+import DATA_MOCK from '../../data/data';
 
 const Chat = () => {
-  const parametros = useParams();
+  const { id } = useParams();
 
-  const { nombre, humbnail, ultima_conexion, id, mensajes } = obtenerDatosPorId(
-    parametros.id
-  );
+  const currentChat = DATA_MOCK.DATA_MOOK.find(chat => chat.id === parseInt(id))
 
-  const [memoryMsj, setMemoryMsj] = useState(mensajes);
+  if (!currentChat) {
+    return <div>Chat no encontrado</div>;
+  };
+
+  const { nombre, mensajes } = currentChat;
+
+  const [memoryMsg, setMemoryMsg] = useState(mensajes);
 
   const handleSubmit = (e, textValue) => {
     e.preventDefault();
 
-    setMemoryMsj([
-      ...memoryMsj,
+    setMemoryMsg([
+      ...memoryMsg,
       {
         author: "yo",
         content: textValue,
         date: "ahora",
         status: "enviado",
-        id: memoryMsj.length + 1,
+        id: memoryMsg.length + 1,
       },
     ]);
   };
   return (
     <>
       <ContentChats nombre={nombre} />
-      <Message memoryMsg={memoryMsj} />
+      <Message memoryMsg={memoryMsg} />
       <MessageForm handleSubmit={handleSubmit} />
+
     </>
   );
 };

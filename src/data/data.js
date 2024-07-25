@@ -240,4 +240,4 @@ const DATA_MOOK = [
   },
 ];
 
-export { DATA_MOOK };
+export default { DATA_MOOK };

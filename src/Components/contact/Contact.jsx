@@ -2,7 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Contacts = ({ DATA_MOOK }) => {
-  const contactList = DATA_MOOK.map((contact) => {
+
+  console.log(DATA_MOOK);  // Añade esta línea para depuración
+
+  const contactList = DATA_MOOK.DATA_MOOK.map((contact) => {
     return (
       <div
         key={contact.id}
@@ -15,5 +18,6 @@ const Contacts = ({ DATA_MOOK }) => {
 
   return <div>{contactList}</div>;
 };
+
 
 export default Contacts;

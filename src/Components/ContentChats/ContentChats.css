@@ -52,9 +52,11 @@
     display: flex;
     align-items: center;
     padding: 10px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: #cccccc;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    background-color: #100e0e;
 }
 
 .write-message input::placeholder {
@@ -75,7 +77,7 @@
     display: flex;
     align-items: center;
     flex: 1;
-    background-color: #f2ebfb;
+    background-color: #282729;
     border-radius: 25px;
     padding: 8px;
 }

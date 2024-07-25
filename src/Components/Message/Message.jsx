@@ -1,11 +1,20 @@
 import React from "react";
 import "./Message.css";
 
-const Message = ({ message }) => {
+const Message = ({ memoryMsg }) => {
   //   const classMessage = author === "yo" ? "message-right" : "message-left";
   //   const statusMessage = status === "visto" ? "visto" : "no-visto";
 
-  return <div>Hola</div>;
+  return (
+    <div>
+      {memoryMsg.map(msg => (
+        <div key={msg.id}>
+          <p>{msg.author}: {msg.content}</p>
+          <p>{msg.date} {msg.hour}</p>
+        </div>
+      ))}
+    </div>
+  )
 };
 
 export default Message;
