@@ -3,16 +3,18 @@ import { useParams } from "react-router-dom";
 import ContentChats from "../../Components/ContentChats/ContentChats";
 import Message from "../../Components/Message/Message";
 import MessageForm from "../../Components/MessageForm/MessageForm";
-import DATA_MOCK from '../../data/data';
+import DATA_MOCK from "../../data/data";
 
 const Chat = () => {
   const { id } = useParams();
 
-  const currentChat = DATA_MOCK.DATA_MOOK.find(chat => chat.id === parseInt(id))
+  const currentChat = DATA_MOCK.DATA_MOOK.find(
+    (chat) => chat.id === parseInt(id)
+  );
 
   if (!currentChat) {
     return <div>Chat no encontrado</div>;
-  };
+  }
 
   const { nombre, mensajes } = currentChat;
 
@@ -34,10 +36,9 @@ const Chat = () => {
   };
   return (
     <>
-      <ContentChats nombre={nombre} />
+      <ContentChats nombre={nombre} thumbnail={currentChat.thumbnail} />
       <Message memoryMsg={memoryMsg} />
       <MessageForm handleSubmit={handleSubmit} />
-
     </>
   );
 };

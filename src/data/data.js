@@ -1,7 +1,7 @@
 const DATA_MOOK = [
   {
     nombre: "Messi",
-    thumbnail: "direccion de la imagen",
+    thumbnail: "../../assets/messi.jpg",
     ultima_conexion: "ayer",
     id: 1,
     /* {
