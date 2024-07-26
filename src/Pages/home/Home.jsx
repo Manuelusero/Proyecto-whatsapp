@@ -1,15 +1,15 @@
 import React from "react";
-import Contact from "../../Components/contact/Contact";
+
 import DATA_MOOK from "../../data/data";
+import "./Home.css";
+import { ListContact } from "../../Components";
 
 const Home = () => {
   return (
-    <>
-      <div>
-        <div>Contactos</div>
-      </div>
-      <Contact DATA_MOOK={DATA_MOOK} />
-    </>
+    <div className="home-container">
+      <div className="home-title">WhatsApp</div>
+      <ListContact DATA_MOOK={DATA_MOOK} />
+    </div>
   );
 };
 

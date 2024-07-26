@@ -1,16 +1,9 @@
 const DATA_MOOK = [
   {
-    nombre: "Messi",
-    thumbnail: "../../assets/messi.jpg",
+    nombre: "Homero",
+    thumbnail: "./img/homero.jpeg",
     ultima_conexion: "ayer",
     id: 1,
-    /* {
-        author: 'yo',
-        content: 'Jamas.',
-        date: 'ayer a 15:37',
-        status: 'entregado',
-        id: 4
-      }, */
     mensajes: [
       {
         author: "yo",
@@ -31,9 +24,9 @@ const DATA_MOOK = [
     ],
   },
   {
-    nombre: "Bocañeri",
+    nombre: "Marge",
     id: 2,
-    thumbnail: "direccion de la imagen",
+    thumbnail: "/img/marge.jpeg",
     ultima_conexion: "ayer",
     mensajes: [
       {
@@ -55,9 +48,9 @@ const DATA_MOOK = [
     ],
   },
   {
-    nombre: "Velar",
+    nombre: "Moe",
     id: 3,
-    thumbnail: "direccion de la imagen",
+    thumbnail: "/img/moe.jpeg",
     ultima_conexion: "hoy",
     mensajes: [
       {
@@ -89,7 +82,7 @@ const DATA_MOOK = [
   {
     nombre: "Thiaguinho",
     id: 4,
-    thumbnail: "direccion de la imagen",
+    thumbnail: "/img/barnie.jpeg",
     ultima_conexion: "hoy",
     mensajes: [
       {
@@ -121,7 +114,7 @@ const DATA_MOOK = [
   {
     nombre: "Frank",
     id: 5,
-    thumbnail: "direccion de la imagen",
+    thumbnail: "/img/gaspar.jpeg",
     ultima_conexion: "hoy",
     mensajes: [
       {
@@ -153,7 +146,7 @@ const DATA_MOOK = [
   {
     nombre: "El gordo bruno",
     id: 6,
-    thumbnail: "direccion de la imagen",
+    thumbnail: "/img/hill.jpeg",
     ultima_conexion: "hoy",
     mensajes: [
       {
@@ -193,7 +186,7 @@ const DATA_MOOK = [
   {
     nombre: "Careta cogollo",
     id: 7,
-    thumbnail: "direccion de la imagen",
+    thumbnail: "/img/apu.jpeg",
     ultima_conexion: "ayer",
     mensajes: [
       {

@@ -1,23 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Contact.css";
 
-const Contacts = ({ DATA_MOOK }) => {
-
-  console.log(DATA_MOOK);  // Añade esta línea para depuración
-
-  const contactList = DATA_MOOK.DATA_MOOK.map((contact) => {
-    return (
-      <div
-        key={contact.id}
-        style={{ border: "1px solid black", margin: "10px", padding: "10px" }}
-      >
-        <Link to={`/chat/${contact.id}`}>{contact.nombre}</Link>
-      </div>
-    );
-  });
-
-  return <div>{contactList}</div>;
+const Contact = ({ contact }) => {
+  const { nombre, ultima_conexion, thumbnail } = contact;
+  console.log(thumbnail);
+  return (
+    <div className="contact-item">
+      <Link to={`/chat/${contact.id}`} className="contact-link">
+        <div>
+          <img src={thumbnail} alt={nombre} className="contact-thumbnail" />
+        </div>
+        <div className="contact-name">{nombre}</div>
+        <div className="last-seen">{ultima_conexion} </div>
+      </Link>
+    </div>
+  );
 };
 
-
-export default Contacts;
+export default Contact;

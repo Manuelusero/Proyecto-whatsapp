@@ -1,0 +1,10 @@
+.home-container {
+  background-color: #000000;
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+}
+.home-title {
+  color: #ffff;
+  padding: 15px;
+}

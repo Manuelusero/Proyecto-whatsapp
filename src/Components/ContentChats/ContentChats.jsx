@@ -9,7 +9,7 @@ const ContentChats = ({ nombre, thumbnail }) => {
       <div className="content-chats">
         <div className="info-contact">
           <Link to="/">
-            <i class="bi bi-arrow-left"></i>
+            <i className="bi bi-arrow-left"></i>
           </Link>
           <div className="img-container">
             <img src={thumbnail} alt="user-pic" className="user-pic" />
