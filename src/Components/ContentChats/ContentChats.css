@@ -1,11 +1,11 @@
-.content-chats {
+/* .content-chats {
   background-image: url(/src/assets/Images/fondooscuro.jpeg);
   width: 420px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-}
+} */
 
 .info-contact {
   background-color: #4f976a;
@@ -37,7 +37,7 @@
   border-radius: 50%;
   display: flex;
   justify-content: center;
-  aling-item: center;
+  align-items: center;
   background-color: black;
 }
 .img-container .user-pic {

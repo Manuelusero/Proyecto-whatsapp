@@ -8,11 +8,12 @@ const Contact = ({ contact }) => {
   return (
     <div className="contact-item">
       <Link to={`/chat/${contact.id}`} className="contact-link">
-        <div>
+        <div className="contact-info">
           <img src={thumbnail} alt={nombre} className="contact-thumbnail" />
+          <div className="contact-name">{nombre}</div>
+          <div className="last-seen">{ultima_conexion} </div>
         </div>
-        <div className="contact-name">{nombre}</div>
-        <div className="last-seen">{ultima_conexion} </div>
+
       </Link>
     </div>
   );

@@ -1,8 +1,15 @@
 .contact-item {
+  display: flex;
+  align-items: center;
   padding: 4px;
   margin-left: 25px;
 }
-
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -25px;
+}
 .contact-link {
   text-decoration: none;
 }
@@ -10,11 +17,16 @@
 .contact-name {
   color: #ffff;
   text-decoration: none;
+  flex-grow: 1;
+  margin-right: 15px;
+  align-items: center;
+  display: flex;
 }
 
 .last-seen {
   font-size: small;
   color: grey;
+  margin-right: -255px;
 }
 
 .contact-thumbnail {
@@ -22,4 +34,8 @@
   height: 40px;
   border-radius: 50%;
   margin-right: 15px;
+}
+.bi-camera {
+  margin-left: 154px;
+  padding-left: 2px;
 }

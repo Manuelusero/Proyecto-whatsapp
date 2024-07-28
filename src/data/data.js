@@ -1,8 +1,8 @@
 const DATA_MOOK = [
   {
     nombre: "Homero",
-    thumbnail: "./img/homero.jpeg",
-    ultima_conexion: "ayer",
+    thumbnail: "/img/homero.jpeg",
+    ultima_conexion: "20:25",
     id: 1,
     mensajes: [
       {
@@ -27,7 +27,7 @@ const DATA_MOOK = [
     nombre: "Marge",
     id: 2,
     thumbnail: "/img/marge.jpeg",
-    ultima_conexion: "ayer",
+    ultima_conexion: "18:23",
     mensajes: [
       {
         author: "yo",
@@ -51,7 +51,7 @@ const DATA_MOOK = [
     nombre: "Moe",
     id: 3,
     thumbnail: "/img/moe.jpeg",
-    ultima_conexion: "hoy",
+    ultima_conexion: "15:40",
     mensajes: [
       {
         author: "yo",
@@ -80,10 +80,10 @@ const DATA_MOOK = [
     ],
   },
   {
-    nombre: "Thiaguinho",
+    nombre: "Barney",
     id: 4,
     thumbnail: "/img/barnie.jpeg",
-    ultima_conexion: "hoy",
+    ultima_conexion: "12:30",
     mensajes: [
       {
         author: "yo",
@@ -112,10 +112,10 @@ const DATA_MOOK = [
     ],
   },
   {
-    nombre: "Frank",
+    nombre: "Gaspar",
     id: 5,
     thumbnail: "/img/gaspar.jpeg",
-    ultima_conexion: "hoy",
+    ultima_conexion: "Ayer",
     mensajes: [
       {
         author: "yo",
@@ -144,10 +144,10 @@ const DATA_MOOK = [
     ],
   },
   {
-    nombre: "El gordo bruno",
+    nombre: "Hill",
     id: 6,
     thumbnail: "/img/hill.jpeg",
-    ultima_conexion: "hoy",
+    ultima_conexion: "Ayer",
     mensajes: [
       {
         author: "yo",
@@ -184,10 +184,10 @@ const DATA_MOOK = [
     ],
   },
   {
-    nombre: "Careta cogollo",
+    nombre: "Apu",
     id: 7,
     thumbnail: "/img/apu.jpeg",
-    ultima_conexion: "ayer",
+    ultima_conexion: "Ayer",
     mensajes: [
       {
         author: "yo",
