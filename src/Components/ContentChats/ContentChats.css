@@ -1,11 +1,14 @@
-/* .content-chats {
+#chats-container {
   background-image: url(/src/assets/Images/fondooscuro.jpeg);
-  width: 420px;
+  width: 320px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-} */
+  background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat;
+}
 
 .info-contact {
   background-color: #4f976a;
@@ -26,19 +29,16 @@
 
 .info-contact .bi-arrow-left {
   color: #ffff;
-  padding-right: 10px;
+  padding-right: 5px;
+  margin-left: -8px;
 }
 
 .user-pic {
   width: 40px;
-  height: 50px;
-  border: 1px solid black;
-  overflow: hidden;
+  height: 40px;
   border-radius: 50%;
+  margin-right: 15px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
 }
 .img-container .user-pic {
   width: 80%;
@@ -47,7 +47,6 @@
 .info-contact .user-name {
   color: #fff;
   font-size: 20px;
-  margin-left: 8px;
 }
 
 /* ESTILOS DE LOS MENSAJES*/
