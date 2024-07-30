@@ -1,10 +1,11 @@
 import React from "react";
 import "./Message.css";
+import MessageForm from "../MessageForm/MessageForm";
 
 const Message = ({ memoryMsg }) => {
   return (
     <div className="message-container">
-      {memoryMsg.map(msg => (
+      {memoryMsg.map((msg) => (
         <div key={msg.id}>
           <p>
             {msg.author}: {msg.content}
@@ -14,6 +15,7 @@ const Message = ({ memoryMsg }) => {
           </p>
         </div>
       ))}
+      {/* <MessageForm /> */}
     </div>
   );
 };

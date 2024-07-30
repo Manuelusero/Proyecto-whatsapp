@@ -2,9 +2,8 @@ import React from "react";
 import "./ContentChats.css";
 import { Link } from "react-router-dom";
 
-const ContentChats = ({ nombre, thumbnail }) => {
+const ContentChats = ({ nombre, thumbnail, id }) => {
   return (
-
     <div id="chats-container" className="content-chats">
       <div className="info-contact">
         <Link to="/">
@@ -13,7 +12,7 @@ const ContentChats = ({ nombre, thumbnail }) => {
         <div className="img-container">
           <img src={thumbnail} alt="user-pic" className="user-pic" />
         </div>
-        <Link to={`/info-contact/${nombre}`}>
+        <Link to={`/info-contact/${id}`}>
           <span className="user-name">{nombre}</span>
         </Link>
         <div className="icons">
@@ -22,9 +21,7 @@ const ContentChats = ({ nombre, thumbnail }) => {
           <i className="bi bi-three-dots-vertical"></i>
         </div>
       </div>
-
     </div>
-
   );
 };
 

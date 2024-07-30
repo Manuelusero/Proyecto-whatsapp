@@ -36,7 +36,7 @@ const Chat = () => {
   };
   return (
     <>
-      <ContentChats nombre={nombre} thumbnail={currentChat.thumbnail} />
+      <ContentChats nombre={nombre} thumbnail={currentChat.thumbnail} id={id} />
       <Message memoryMsg={memoryMsg} />
       <MessageForm handleSubmit={handleSubmit} />
     </>
