@@ -1,7 +1,6 @@
 /*ESTILOS DE LOS MENSAJES*/
 /* 
 .message {
-<<<<<<< HEAD
   width: 60%;
   margin-bottom: 12px;
   padding: 5px 10px;
@@ -18,25 +17,6 @@
   font-weight: 600;
   font-size: 12px;
   color: #888;
-=======
-    width: 60%;
-    margin-bottom: 12px;
-    padding: 5px 10px;
-    border-radius: 10px;
-    clear: both;
-    position: relative;
-    overflow: hidden;
-    display: inline-block;
-    color: #f0e6e6;
-    background-color: rgb(64, 62, 59);
-} */
-
-.message .author {
-    font-weight: 600;
-    font-size: 12px;
-    color: #888;
-    margin-bottom:;
->>>>>>> faa31ea2b5de930ae0ed46aaabbafe469a9767d9
 }
 
 .message .content {
