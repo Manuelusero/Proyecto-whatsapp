@@ -1,7 +1,6 @@
 /*ESTILOS DE LOS MENSAJES*/
 
 .message {
-<<<<<<< HEAD
   width: 60%;
   margin-bottom: 12px;
   padding: 5px 10px;
@@ -18,31 +17,29 @@
   font-weight: 600;
   font-size: 12px;
   color: #888;
-=======
-    width: 60%;
-    margin-bottom: 12px;
-    padding: 5px 10px;
-    border-radius: 10px;
-    position: relative;
-    display: inline-block;
-    color: #f0e6e6;
-    z-index: 1;
+  width: 60%;
+  margin-bottom: 12px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  position: relative;
+  display: inline-block;
+  color: #f0e6e6;
+  z-index: 1;
 }
 .message-container {
-    /* background-image: url(/src/assets/Images/fondooscuro.jpeg); */
-    position: relative;
-    z-index: 10;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    padding: 15px;
+  /* background-image: url(/src/assets/Images/fondooscuro.jpeg); */
+  position: relative;
+  z-index: 10;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  padding: 15px;
 }
 
 .message .author {
-    font-weight: 600;
-    font-size: 12px;
-    color: #888;
->>>>>>> 0bea2e2 (intentando agregar la page de info)
+  font-weight: 600;
+  font-size: 12px;
+  color: #888;
 }
 
 .message .content {
