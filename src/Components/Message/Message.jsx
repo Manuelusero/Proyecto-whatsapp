@@ -2,12 +2,13 @@ import React from "react";
 import "./Message.css";
 
 const Message = ({ memoryMsg }) => {
-  //   const classMessage = author === "yo" ? "message-right" : "message-left";
-  //   const statusMessage = status === "visto" ? "visto" : "no-visto";
-
   return (
     <div className="message-container">
+<<<<<<< HEAD
       {memoryMsg.map((msg) => (
+=======
+      {memoryMsg.map(msg => (
+>>>>>>> 0bea2e2 (intentando agregar la page de info)
         <div key={msg.id}>
           <p>
             {msg.author}: {msg.content}

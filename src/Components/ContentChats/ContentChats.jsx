@@ -13,13 +13,16 @@ const ContentChats = ({ nombre, thumbnail }) => {
         <div className="img-container">
           <img src={thumbnail} alt="user-pic" className="user-pic" />
         </div>
-        <span className="user-name">{nombre}</span>
+        <Link to={`/info-contact/${nombre}`}>
+          <span className="user-name">{nombre}</span>
+        </Link>
         <div className="icons">
           <i className="bi bi-camera-video"></i>
           <i className="bi bi-telephone"></i>
           <i className="bi bi-three-dots-vertical"></i>
         </div>
       </div>
+
     </div>
 
   );
