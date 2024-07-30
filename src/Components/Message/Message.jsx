@@ -6,15 +6,19 @@ const Message = ({ memoryMsg }) => {
   //   const statusMessage = status === "visto" ? "visto" : "no-visto";
 
   return (
-    <div>
-      {memoryMsg.map(msg => (
+    <div className="message-container">
+      {memoryMsg.map((msg) => (
         <div key={msg.id}>
-          <p>{msg.author}: {msg.content}</p>
-          <p>{msg.date} {msg.hour}</p>
+          <p>
+            {msg.author}: {msg.content}
+          </p>
+          <p>
+            {msg.date} {msg.hour}
+          </p>
         </div>
       ))}
     </div>
-  )
+  );
 };
 
 export default Message;

@@ -1,67 +1,67 @@
 /*ESTILOS DE LOS MENSAJES*/
 
 .message {
-    width: 60%;
-    margin-bottom: 12px;
-    padding: 5px 10px;
-    border-radius: 10px;
-    clear: both;
-    position: relative;
-    overflow: hidden;
-    display: inline-block;
-    color: #f0e6e6;
-    background-color: rgb(64, 62, 59);
+  width: 60%;
+  margin-bottom: 12px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  clear: both;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  color: #f0e6e6;
+  background-color: rgb(64, 62, 59);
 }
 
 .message .author {
-    font-weight: 600;
-    font-size: 12px;
-    color: #888;
+  font-weight: 600;
+  font-size: 12px;
+  color: #888;
 }
 
 .message .content {
-    font-size: 13px;
-    margin-bottom: 10px;
+  font-size: 13px;
+  margin-bottom: 10px;
 }
 
 .message .date,
 .message .status {
-    font-size: 11px;
-    color: #888;
-    position: absolute;
-    bottom: 2px;
-    right: 20px;
+  font-size: 11px;
+  color: #888;
+  position: absolute;
+  bottom: 2px;
+  right: 20px;
 }
 
 .message .status {
-    bottom: 1px;
-    right: 5px;
+  bottom: 1px;
+  right: 5px;
 }
 
 .message-left {
-    background-color: #cccccc;
-    float: left;
-    border-bottom-left-radius: 0px;
-    margin-right: -10px;
-    margin-left: 8px;
-    margin-bottom: 10px;
-    color: #3a3838;
-    border-radius: 10px;
-    font-size: 15px;
+  background-color: #cccccc;
+  float: left;
+  border-bottom-left-radius: 0px;
+  margin-right: -10px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+  color: #3a3838;
+  border-radius: 10px;
+  font-size: 15px;
 }
 
 .message-right {
-    background-color: #c8b6ff;
-    float: right;
-    border-bottom-right-radius: 0px;
-    margin-left: auto;
-    margin-right: 8px;
-    margin-bottom: 15px;
-    font-size: 15px;
-    border-radius: 10px;
+  background-color: #c8b6ff;
+  float: right;
+  border-bottom-right-radius: 0px;
+  margin-left: auto;
+  margin-right: 8px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  border-radius: 10px;
 }
 
 .message .status {
-    bottom: 1px;
-    right: 5px;
+  bottom: 1px;
+  right: 5px;
 }
