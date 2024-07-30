@@ -1,5 +1,5 @@
 /*ESTILOS DE LOS MENSAJES*/
-
+/* 
 .message {
     width: 60%;
     margin-bottom: 12px;
@@ -11,12 +11,13 @@
     display: inline-block;
     color: #f0e6e6;
     background-color: rgb(64, 62, 59);
-}
+} */
 
 .message .author {
     font-weight: 600;
     font-size: 12px;
     color: #888;
+    margin-bottom:;
 }
 
 .message .content {
