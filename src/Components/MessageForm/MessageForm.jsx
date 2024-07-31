@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "/src/Components/ContentChats/ContentChats.css";
+import "./MessageForm.css";
 
 const MessageForm = ({ handleSubmit }) => {
   const [inputValue, setInputValue] = useState("");
@@ -18,16 +18,17 @@ const MessageForm = ({ handleSubmit }) => {
   return (
     <form className="write-message" onSubmit={onSubmit}>
       <div className="content-input">
-        <button className="btn-adjunt" type="button">
-          <i className="bi bi-paperclip"></i>
-        </button>
+        <i className="bi bi-emoji-smile icono-emoji"></i>
+
         <input
           type="text"
           value={inputValue}
           onChange={handleChange}
           placeholder="Mensaje"
         ></input>
-        <i className="bi bi-emoji-smile icono-emoji"></i>
+
+        <button className="btn-adjunt" type="button">
+          <i className="bi bi-paperclip"></i> </button>
       </div>
       <button className="btn-send" type="submit">
         <i className="bi bi-send-fill icono-enviar"></i>

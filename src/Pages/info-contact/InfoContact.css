@@ -1,3 +1,7 @@
+.info-container {
+  background-color: rgb(14, 15, 16);
+}
+
 .title-container {
   display: flex;
 }
@@ -5,6 +9,11 @@
   display: flex;
   justify-content: center;
   margin: 20px;
+  color: white;
+}
+.bi-arrow-left {
+  color: white;
+  padding-right: 5px;
 }
 
 .image-container {
@@ -23,10 +32,29 @@
   display: flex;
   justify-content: center;
   margin: 20px;
+  color: white;
 }
 
 .options-container {
   display: flex;
   justify-content: space-between;
   margin: 20px;
+  color: white;
+}
+.video-container,
+.search-container,
+.call-container {
+  border: rgb(225, 213, 213) solid 1px;
+  border-radius: 10px;
+  padding: 10px;
+  /* margin: 10px; */
+}
+h4 {
+  color: white;
+}
+span {
+  color: white;
+}
+p {
+  color: white;
 }

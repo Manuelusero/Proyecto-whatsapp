@@ -1,0 +1,64 @@
+.write-message {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.write-message input::placeholder {
+    font-size: 16px;
+    color: #7f7f7f;
+}
+
+.write-message .btn-send {
+    background-color: #37f46a;
+    border: none;
+    padding: 2px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+}
+
+.content-input {
+    display: flex;
+    align-items: center;
+    background-color: #282729;
+    height: 30px;
+    border-radius: 25px;
+    padding: 8px;
+}
+
+.content-input input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 8px;
+    font-size: 15px;
+    color: white;
+}
+
+.btn-adjunt {
+    background: none;
+    border: none;
+    color: #7f7f7f;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.icono-emoji {
+    font-size: 18px;
+    color: #7f7f7f;
+    margin-right: 5px;
+}
+
+.icono-enviar {
+    font-size: 14px;
+    color: #fff;
+    width: 20px;
+}

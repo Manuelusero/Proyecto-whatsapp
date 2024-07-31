@@ -1,23 +1,22 @@
-import React from "react";
-import "./Message.css";
-import MessageForm from "../MessageForm/MessageForm";
+import React from 'react';
+import './Message.css';
 
 const Message = ({ memoryMsg }) => {
   return (
     <div className="message-container">
       {memoryMsg.map((msg) => (
-        <div key={msg.id}>
+        <div key={msg.id} className={msg.author === "yo" ? 'message-right' : 'message-left'}>
           <p>
             {msg.author}: {msg.content}
           </p>
-          <p>
-            {msg.date} {msg.hour}
+          <p className='message-hour'>
+            {msg.hour}
           </p>
         </div>
       ))}
-      {/* <MessageForm /> */}
     </div>
   );
 };
 
 export default Message;
+

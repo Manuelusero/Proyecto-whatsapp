@@ -4,6 +4,7 @@ import ContentChats from "../../Components/ContentChats/ContentChats";
 import Message from "../../Components/Message/Message";
 import MessageForm from "../../Components/MessageForm/MessageForm";
 import DATA_MOCK from "../../data/data";
+import "./Chat.css";
 
 const Chat = () => {
   const { id } = useParams();
@@ -35,11 +36,13 @@ const Chat = () => {
     ]);
   };
   return (
-    <>
+    <div className="chat-container">
       <ContentChats nombre={nombre} thumbnail={currentChat.thumbnail} id={id} />
-      <Message memoryMsg={memoryMsg} />
+      <div className="message-container">
+        <Message memoryMsg={memoryMsg} />
+      </div>
       <MessageForm handleSubmit={handleSubmit} />
-    </>
+    </div>
   );
 };
 export default Chat;

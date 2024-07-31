@@ -18,7 +18,7 @@ const InfoContact = () => {
   const { nombre, thumbnail } = currentChat;
 
   return (
-    <div>
+    <div className="info-container">
       <div className="title-container">
         <Link to={`/chat/${id}`}>
           <i className="bi bi-arrow-left"></i>
@@ -31,28 +31,28 @@ const InfoContact = () => {
       <div className="name-container">{nombre}</div>
       <div className="options-container">
         <div className="call-container">
-          <i class="bi bi-telephone"></i>
+          <i className="bi bi-telephone"></i>
           <span>Llamar</span>
         </div>
-        <div>
-          <i class="bi bi-camera-video"></i>
+        <div className="video-container">
+          <i className="bi bi-camera-video"></i>
           <span>Video</span>
         </div>
-        <div>
-          <i class="bi bi-search"></i>
+        <div className="search-container">
+          <i className="bi bi-search"></i>
           <span>Buscar</span>
         </div>
       </div>
       <div>
-        <i class="bi bi-card-image"></i>
+        <i className="bi bi-card-image"></i>
         <h4>Archivos multimedia</h4>
       </div>
       <div>
-        <i class="bi bi-bell"></i>
+        <i className="bi bi-bell"></i>
         <h4>Notificaciones</h4>
       </div>
       <div>
-        <i class="bi bi-lock"></i>
+        <i className="bi bi-lock"></i>
         <h4>Cifrado</h4>
         <p>
           Los mensajes y llamadas estan cifrados de extremo a extremo. Pulsa
