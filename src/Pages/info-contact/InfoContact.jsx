@@ -15,7 +15,7 @@ const InfoContact = () => {
     return <div>No hay información de contacto disponible</div>;
   }
 
-  const { nombre, thumbnail } = currentChat;
+  const { name, thumbnail } = currentChat;
 
   return (
     <div className="info-container">
@@ -28,7 +28,7 @@ const InfoContact = () => {
       <div className="image-container">
         <img src={thumbnail} alt="" className="image" />
       </div>
-      <div className="name-container">{nombre}</div>
+      <div className="name-container">{name}</div>
       <div className="options-container">
         <div className="call-container">
           <i className="bi bi-telephone"></i>

@@ -17,7 +17,7 @@ const Chat = () => {
     return <div>Chat no encontrado</div>;
   }
 
-  const { nombre, mensajes } = currentChat;
+  const { name, mensajes } = currentChat;
 
   const [memoryMsg, setMemoryMsg] = useState(mensajes);
 
@@ -37,7 +37,7 @@ const Chat = () => {
   };
   return (
     <div className="chat-container">
-      <ContentChats nombre={nombre} thumbnail={currentChat.thumbnail} id={id} />
+      <ContentChats name={name} thumbnail={currentChat.thumbnail} id={id} />
       <div className="message-container">
         <Message memoryMsg={memoryMsg} />
       </div>

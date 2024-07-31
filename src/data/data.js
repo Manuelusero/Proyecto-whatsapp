@@ -1,6 +1,6 @@
 const DATA_MOOK = [
   {
-    nombre: "Homero",
+    name: "Homero",
     thumbnail: "/img/homero.jpeg",
     ultima_conexion: "20:25",
     id: 1,
@@ -24,7 +24,7 @@ const DATA_MOOK = [
     ],
   },
   {
-    nombre: "Marge",
+    name: "Marge",
     id: 2,
     thumbnail: "/img/marge.jpeg",
     ultima_conexion: "18:23",
@@ -48,7 +48,7 @@ const DATA_MOOK = [
     ],
   },
   {
-    nombre: "Moe",
+    name: "Moe",
     id: 3,
     thumbnail: "/img/moe.jpeg",
     ultima_conexion: "15:40",
@@ -80,7 +80,7 @@ const DATA_MOOK = [
     ],
   },
   {
-    nombre: "Barney",
+    name: "Barney",
     id: 4,
     thumbnail: "/img/barnie.jpeg",
     ultima_conexion: "12:30",
@@ -112,7 +112,7 @@ const DATA_MOOK = [
     ],
   },
   {
-    nombre: "Gaspar",
+    name: "Gaspar",
     id: 5,
     thumbnail: "/img/gaspar.jpeg",
     ultima_conexion: "Ayer",
@@ -144,7 +144,7 @@ const DATA_MOOK = [
     ],
   },
   {
-    nombre: "Hill",
+    name: "Hill",
     id: 6,
     thumbnail: "/img/hill.jpeg",
     ultima_conexion: "Ayer",
@@ -184,7 +184,7 @@ const DATA_MOOK = [
     ],
   },
   {
-    nombre: "Apu",
+    name: "Apu",
     id: 7,
     thumbnail: "/img/apu.jpeg",
     ultima_conexion: "Ayer",
