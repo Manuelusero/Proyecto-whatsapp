@@ -23,7 +23,7 @@ const InfoContact = () => {
         <Link to={`/chat/${id}`}>
           <i className="bi bi-arrow-left"></i>
         </Link>
-        <p className="title">Info del contacto</p>
+        {/* <p className="title">Info del contacto</p> */}
       </div>
       <div className="image-container">
         <img src={thumbnail} alt="" className="image" />
@@ -43,21 +43,17 @@ const InfoContact = () => {
           <span>Buscar</span>
         </div>
       </div>
-      <div>
-        <i className="bi bi-card-image"></i>
-        <h4>Archivos multimedia</h4>
-      </div>
-      <div>
+      <div className="notifications-container">
         <i className="bi bi-bell"></i>
         <h4>Notificaciones</h4>
       </div>
-      <div>
+      <div className="visibility-container">
+        <i className="bi bi-card-image"></i>
+        <h4>Visibilidad de archivos multimedia</h4>
+      </div>
+      <div className="security-container">
         <i className="bi bi-lock"></i>
-        <h4>Cifrado</h4>
-        <p>
-          Los mensajes y llamadas estan cifrados de extremo a extremo. Pulsa
-          para verificar
-        </p>
+        <h4>Mensajes destacados</h4>
       </div>
     </div>
   );

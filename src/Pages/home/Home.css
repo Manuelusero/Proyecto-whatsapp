@@ -3,8 +3,12 @@
   height: 400px;
   width: 320px;
   border-radius: 10px;
+  overflow-y: auto;
+  /* max-width: 300px; */
 }
 .home-title {
   color: #ffff;
   padding: 5px;
+  font-weight: bold;
+  margin-top: 5px;
 }

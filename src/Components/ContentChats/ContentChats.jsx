@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const ContentChats = ({ name, thumbnail, id }) => {
   return (
-    <div id="chats-container" className="content-chats">
+    <div className="content-chats">
       <div className="info-contact">
         <Link to="/">
           <i className="bi bi-arrow-left"></i>
@@ -12,7 +12,7 @@ const ContentChats = ({ name, thumbnail, id }) => {
         <div className="img-container">
           <img src={thumbnail} alt="user-pic" className="user-pic" />
         </div>
-        <Link to={`/info-contact/${id}`}>
+        <Link className="user-name-link" to={`/info-contact/${id}`}>
           <span className="user-name">{name}</span>
         </Link>
         <div className="icons">

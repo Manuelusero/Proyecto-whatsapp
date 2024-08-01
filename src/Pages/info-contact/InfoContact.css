@@ -1,9 +1,16 @@
 .info-container {
   background-color: rgb(14, 15, 16);
+  height: 400px;
+  width: 320px;
+  border-radius: 10px;
+  overflow-y: auto;
 }
 
 .title-container {
   display: flex;
+  align-items: flex-start;
+  padding-top: 10px;
+  margin-top: 10px;
 }
 .title {
   display: flex;
@@ -13,7 +20,7 @@
 }
 .bi-arrow-left {
   color: white;
-  padding-right: 5px;
+  margin-left: 7px;
 }
 
 .image-container {
@@ -22,8 +29,8 @@
 }
 
 .image {
-  width: 150px;
-  height: 150px;
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
   display: flex;
 }
@@ -44,17 +51,42 @@
 .video-container,
 .search-container,
 .call-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   border: rgb(225, 213, 213) solid 1px;
   border-radius: 10px;
   padding: 10px;
-  /* margin: 10px; */
 }
-h4 {
-  color: white;
+.video-container i,
+.search-container i,
+.call-container i {
+  margin-bottom: 5px;
 }
+h4,
 span {
   color: white;
 }
+
 p {
   color: white;
+  margin-top: 4px;
+}
+.notifications-container,
+.visibility-container,
+.security-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  margin-bottom: 5px;
+  margin: 7px;
+  padding: 10px;
+}
+.notifications-container i,
+.visibility-container i,
+.security-container i {
+  margin-right: 10px;
+  margin-bottom: 0px;
 }

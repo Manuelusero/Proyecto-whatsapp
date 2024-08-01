@@ -32,7 +32,7 @@ const ListContact = ({ DATA_MOOK }) => {
     <div>
       <input className="search-bar"
         type="text"
-        placeholder="Buscar contactos"
+        placeholder="Buscar"
         value={searchTerm}
         onChange={e => setSearchTerm(e.target.value)}
       />

@@ -1,9 +1,12 @@
+.content-chats {
+  border-end-start-radius: 5px;
+}
 .info-contact {
   background-color: #111111;
   padding: 12px 15px;
   display: flex;
   align-items: center;
-  z-index: 20;
+  border-radius: 10px;
 }
 
 .info-contact .icons {
@@ -29,11 +32,11 @@
   margin-right: 15px;
   display: flex;
 }
-.img-container .user-pic {
-  width: 80%;
-}
 
 .info-contact .user-name {
   color: #fff;
   font-size: 20px;
+}
+.user-name-link {
+  text-decoration: none;
 }
