@@ -1,13 +1,15 @@
 .chat-container {
     background-image: url(/src/assets/Images/fondooscuro.jpeg);
     background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
     position: relative;
     display: flex;
     flex-direction: column;
     z-index: 1;
-    height: 400px;
-    width: 320px;
-    border-radius: 10px;
+    height: 100vh;
+    width: 100vw;
+    border-radius: 0px;
 }
 
 .message-container {

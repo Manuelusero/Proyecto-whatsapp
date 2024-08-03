@@ -14,7 +14,7 @@ const DATA_MOOK = [
         id: "msg1",
       },
       {
-        author: "Messi",
+        author: "Homero",
         content: "¡Todo bien! ¿Y tú?",
         status: "visto",
         date: "hoy",
@@ -38,7 +38,7 @@ const DATA_MOOK = [
         id: "msg1",
       },
       {
-        author: "Abuelita",
+        author: "Marge",
         content: "Hola mi niño, estoy bien. ¿Y tú?",
         status: "visto",
         date: "23/12/2024",
@@ -62,7 +62,7 @@ const DATA_MOOK = [
         id: "msg1",
       },
       {
-        author: "Pedro",
+        author: "Moe",
         content: "Sí, claro. ¿A qué hora?",
         status: "visto",
         date: "ayer",
@@ -94,7 +94,7 @@ const DATA_MOOK = [
         id: "msg1",
       },
       {
-        author: "Laura",
+        author: "Barney",
         content: "Hola, todo bien. ¿Y tú?",
         status: "visto",
         date: "15/07/2024",
@@ -126,7 +126,7 @@ const DATA_MOOK = [
         id: "msg1",
       },
       {
-        author: "Carlos",
+        author: "Gaspar",
         content: "Sí, estoy libre ahora.",
         status: "visto",
         date: "20/06/2024",
@@ -158,7 +158,7 @@ const DATA_MOOK = [
         id: "msg1",
       },
       {
-        author: "Ana",
+        author: "Hill",
         content: "Claro, ¿cuándo es?",
         status: "visto",
         date: "hoy",
@@ -198,7 +198,7 @@ const DATA_MOOK = [
         id: "msg1",
       },
       {
-        author: "Juan",
+        author: "Apu",
         content: "Sí, te lo envío ahora mismo.",
         status: "visto",
         date: "01/05/2024",
@@ -214,7 +214,7 @@ const DATA_MOOK = [
         id: "msg3",
       },
       {
-        author: "Juan",
+        author: "Apu",
         content: "De nada, ¡que tengas un buen día!",
         status: "visto",
         date: "01/05/2024",

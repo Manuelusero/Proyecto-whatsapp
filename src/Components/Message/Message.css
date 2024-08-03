@@ -19,7 +19,9 @@
   clear: both;
   position: relative;
   overflow: hidden;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   color: #f0e6e6;
   background-color: rgb(64, 62, 59);
   z-index: 15;
@@ -64,6 +66,9 @@
   max-width: 80%;
   box-sizing: border-box;
   padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .message-right {
@@ -75,6 +80,9 @@
   max-width: 80%;
   box-sizing: border-box;
   padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .message .status {
@@ -83,6 +91,7 @@
 }
 .message-hour {
   font-size: 10px;
-  margin-left: 160px;
+  margin-left: 30px;
   white-space: nowrap;
+  align-self: flex-end;
 }

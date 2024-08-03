@@ -43,20 +43,22 @@ const InfoContact = () => {
           <span>Buscar</span>
         </div>
       </div>
-      <div className="notifications-container">
-        <i className="bi bi-bell"></i>
-        <h4>Notificaciones</h4>
-      </div>
-      <div className="visibility-container">
-        <i className="bi bi-card-image"></i>
-        <h4>Visibilidad de archivos multimedia</h4>
-      </div>
-      <div className="security-container">
-        <i className="bi bi-lock"></i>
-        <h4>Mensajes destacados</h4>
+      <div className="settings-container">
+        <div className="notifications-container">
+          <i className="bi bi-bell"></i>
+          <h4>Notificaciones</h4>
+        </div>
+        <div className="visibility-container">
+          <i className="bi bi-card-image"></i>
+          <h4>Visibilidad de archivos multimedia</h4>
+        </div>
+        <div className="security-container">
+          <i className="bi bi-lock"></i>
+          <h4>Mensajes destacados</h4>
+        </div>
       </div>
     </div>
-  );
+  )
 };
 
 export default InfoContact;
