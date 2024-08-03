@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import ContentChats from "../../Components/ContentChats/ContentChats";
 import Message from "../../Components/Message/Message";
@@ -19,22 +19,28 @@ const Chat = () => {
 
   const { name, mensajes } = currentChat;
 
-  const [memoryMsg, setMemoryMsg] = useState(mensajes);
+  const [memoryMsg, setMemoryMsg] = useState(() => {
+    const storedMessages = localStorage.getItem(`chat-${id}-messages`);
+    return storedMessages ? JSON.parse(storedMessages) : mensajes;
+  });
+
+  useEffect(() => {
+    localStorage.setItem(`chat-${id}-messages`, JSON.stringify(memoryMsg));
+  }, [memoryMsg, id]);
 
   const handleSubmit = (e, textValue) => {
     e.preventDefault();
 
-    setMemoryMsg([
-      ...memoryMsg,
-      {
-        author: "yo",
-        content: textValue,
-        date: "ahora",
-        status: "enviado",
-        id: memoryMsg.length + 1,
-      },
-    ]);
+    const newMessage = {
+      author: "yo",
+      content: textValue,
+      date: "ahora",
+      status: "enviado",
+      id: memoryMsg.length + 1,
+    };
+    setMemoryMsg([...memoryMsg, newMessage]);
   };
+
   return (
     <div className="chat-container">
       <ContentChats name={name} thumbnail={currentChat.thumbnail} id={id} />
