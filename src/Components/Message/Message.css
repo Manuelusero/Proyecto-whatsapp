@@ -56,7 +56,7 @@
 }
 
 .message-left {
-  background-color: #5c5e68;
+  background-color: #202c33;
   align-self: flex-start;
   border-bottom-left-radius: 0px;
   margin: 4px 0;
@@ -65,7 +65,7 @@
   font-size: 15px;
   max-width: 80%;
   box-sizing: border-box;
-  padding: 3px;
+  padding: 7px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -73,13 +73,13 @@
 
 .message-right {
   align-self: flex-end;
-  background-color: #459551;
+  background-color: #005c4b;
   margin: 4px 0;
   font-size: 15px;
   border-radius: 10px;
   max-width: 80%;
   box-sizing: border-box;
-  padding: 3px;
+  padding: 7px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -91,7 +91,7 @@
 }
 .message-hour {
   font-size: 10px;
-  margin-left: 30px;
+  margin-left: 20px;
   white-space: nowrap;
   align-self: flex-end;
 }

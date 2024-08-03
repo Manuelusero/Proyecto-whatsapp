@@ -4,6 +4,12 @@
   width: 100vw;
   border-radius: 0px;
   overflow-y: auto;
+  color: #111b21;
+}
+
+.info-header-container {
+  background-color: #111b21;
+  padding-bottom: 1px;
 }
 
 .title-container {
@@ -46,20 +52,23 @@
 .options-container {
   display: flex;
   justify-content: space-between;
-  margin: 50px 270px 50px;
   color: white;
+  padding-right: 20%;
+  padding-left: 20%;
+  padding-bottom: 50px;
 }
 .video-container,
 .search-container,
 .call-container {
+  color: #37f46a;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: rgb(225, 213, 213) solid 1px;
+  border: #949494 solid 1px;
   border-radius: 10px;
   padding: 10px;
-  width: 180px; /* Ajusta el valor según el tamaño deseado */
+  width: 15%;
 }
 
 .video-container i,
@@ -76,26 +85,69 @@ p {
   color: white;
   margin-top: 4px;
 }
+.setting {
+  display: flex;
+  aling-items: star;
+}
 .settings-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+
   margin-top: 20px;
+  background-color: #111b21;
 }
 .notifications-container,
 .visibility-container,
 .security-container {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  color: white;
+  color: grey;
   margin-bottom: 5px;
-  margin: 7px;
   padding: 10px;
+  justify-content: center;
 }
 .notifications-container i,
 .visibility-container i,
 .security-container i {
   margin-right: 10px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.actions-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-top: 20px;
+  background-color: #111b21;
+  padding: 20px;
+}
+
+.add-to-favorites,
+.block-contact,
+.report-contact {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  padding: 5px;
+  justify-content: center;
+}
+
+.add-to-favorites i {
+  margin-right: 10px;
   margin-bottom: 0px;
+  font-size: 20px;
+  color: grey;
+}
+.block-contact i,
+.report-contact i {
+  margin-right: 10px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  color: red;
+}
+.block-contact p,
+.report-contact p {
+  color: red;
 }

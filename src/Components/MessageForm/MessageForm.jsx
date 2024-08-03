@@ -28,7 +28,9 @@ const MessageForm = ({ handleSubmit }) => {
         ></input>
 
         <button className="btn-adjunt" type="button">
-          <i className="bi bi-paperclip"></i> </button>
+          <i className="bi bi-paperclip"></i>
+          <i class="bi bi-camera"></i>
+        </button>
       </div>
       <button className="btn-send" type="submit">
         <i className="bi bi-send-fill icono-enviar"></i>

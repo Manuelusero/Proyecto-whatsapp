@@ -34,7 +34,10 @@ const Chat = () => {
     const newMessage = {
       author: "yo",
       content: textValue,
-      date: "ahora",
+      hour: new Date().toLocaleTimeString([], {
+        hour: "2-digit",
+        minute: "2-digit",
+      }),
       status: "enviado",
       id: memoryMsg.length + 1,
     };
