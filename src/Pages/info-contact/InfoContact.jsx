@@ -56,22 +56,22 @@ const InfoContact = () => {
             <h4>Visibilidad de archivos multimedia</h4>
           </div>
           <div className="security-container">
-            <i class="bi bi-star"></i>
+            <i className="bi bi-star"></i>
             <h4>Mensajes destacados</h4>
           </div>
         </div>
       </div>
       <div className="actions-container">
         <div className="add-to-favorites">
-          <i class="bi bi-heart"></i>
+          <i className="bi bi-heart"></i>
           <p>Añadir a favoritos</p>
         </div>
         <div className="block-contact">
-          <i class="bi bi-ban"></i>
+          <i className="bi bi-ban"></i>
           <p>Bloquear a este contacto</p>
         </div>
         <div className="report-contact">
-          <i class="bi bi-hand-thumbs-down"></i>
+          <i className="bi bi-hand-thumbs-down"></i>
           <p>Reportar a este contacto</p>
         </div>
       </div>

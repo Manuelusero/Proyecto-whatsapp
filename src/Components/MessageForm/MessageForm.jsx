@@ -29,7 +29,7 @@ const MessageForm = ({ handleSubmit }) => {
 
         <button className="btn-adjunt" type="button">
           <i className="bi bi-paperclip"></i>
-          <i class="bi bi-camera"></i>
+          <i className="bi bi-camera"></i>
         </button>
       </div>
       <button className="btn-send" type="submit">

@@ -87,7 +87,6 @@ p {
 }
 .setting {
   display: flex;
-  aling-items: star;
 }
 .settings-container {
   display: flex;
@@ -111,6 +110,7 @@ p {
 .security-container i {
   margin-right: 10px;
   margin-bottom: 5px;
+  margin-top: -3px;
   font-size: 20px;
 }
 
