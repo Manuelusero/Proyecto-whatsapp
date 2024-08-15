@@ -3,13 +3,16 @@
   align-items: center;
   justify-content: space-between;
   padding: 10px;
-  margin-left: 32px;
+  /* margin-left: 32px; */
+  width: 100%;
+  box-sizing: border-box;
 }
 .contact-info {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
-  margin-left: -20px;
+  /* margin-left: -20px; */
+  width: 100%;
 }
 .contact-link {
   text-decoration: none;
@@ -22,6 +25,9 @@
   margin-right: 15px;
   align-items: center;
   display: flex;
+  font-size: 1.2vw;
+  min-width: 0;
+  overflow: hidden;
 }
 
 .contact-thumbnail {
@@ -29,4 +35,12 @@
   height: 40px;
   border-radius: 50%;
   margin-right: 15px;
+}
+.last-seen {
+  font-size: 1vw;
+  color: grey;
+  margin-right: -1370px;
+  margin-left: auto;
+  flex-shrink: 0;
+  white-space: nowrap;
 }
