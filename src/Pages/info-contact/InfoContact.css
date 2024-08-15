@@ -51,11 +51,9 @@
 
 .options-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   color: white;
-  padding-right: 20%;
-  padding-left: 20%;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 .video-container,
 .search-container,
@@ -68,7 +66,8 @@
   border: #949494 solid 1px;
   border-radius: 10px;
   padding: 10px;
-  width: 15%;
+  width: 70px;
+  margin: 0px 10px;
 }
 
 .video-container i,
@@ -150,4 +149,29 @@ p {
 .block-contact p,
 .report-contact p {
   color: red;
+}
+
+@media (min-width: 600px) {
+  .options-container {
+    padding: 30px 50px 30px 50px;
+  }
+  .video-container,
+  .search-container,
+  .call-container {
+    padding: 20px;
+    width: 90px;
+    margin: 0px 20px;
+  }
+}
+@media (min-width: 800px) {
+  .options-container {
+    padding: 30px 70px 30px 70px;
+  }
+  .video-container,
+  .search-container,
+  .call-container {
+    padding: 20px;
+    width: 90px;
+    margin: 0px 40px;
+  }
 }

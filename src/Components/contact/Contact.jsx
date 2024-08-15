@@ -11,10 +11,9 @@ const Contact = ({ contact }) => {
         <div className="contact-info">
           <img src={thumbnail} alt={name} className="contact-thumbnail" />
           <div className="contact-name">{name}</div>
-          <div className="last-seen">{ultima_conexion} </div>
         </div>
-
       </Link>
+      <div className="last-seen">{ultima_conexion} </div>
     </div>
   );
 };
