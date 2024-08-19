@@ -5,6 +5,7 @@
   width: 100%;
   box-sizing: border-box;
   margin-bottom: 10px;
+  flex-wrap: nowrap;
 }
 
 .write-message input::placeholder {
@@ -12,17 +13,18 @@
   color: #7f7f7f;
 }
 
-.write-message .btn-send {
+.btn-send {
   background-color: #37f46a;
   border: none;
   padding: 2px;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-left: 4px;
+  flex-shrink: 0px;
 }
 
 .content-input {
@@ -34,8 +36,8 @@
   padding: 8px;
   margin-left: 4px;
   flex-grow: 1;
-  margin-right: 10px;
-  height: 44px;
+  margin-right: 4px;
+  min-width: 0;
 }
 
 .content-input input {
@@ -43,10 +45,9 @@
   border: none;
   outline: none;
   background-color: transparent;
-  padding: 8px;
   font-size: 15px;
   color: white;
-  padding-bottom: 5px;
+  min-width: 0;
 }
 
 .btn-adjunt {
@@ -56,7 +57,8 @@
   padding: 10px;
   font-size: 18px;
   border-radius: 50%;
-  margin-left: 5px;
+  min-width: 40px;
+  flex-shrink: 0;
 }
 
 .icono-emoji {
@@ -70,4 +72,23 @@
   color: #fff;
   width: 30px;
   cursor: pointer;
+}
+
+@media (max-width: 384px) {
+  .write-message {
+    flex-wrap: nowrap;
+  }
+
+  .content-input {
+    margin-right: 4px;
+    flex-grow: 1;
+    min-width: 0;
+  }
+
+  .btn-send {
+    width: 35px;
+    height: 35px;
+    margin-left: 4px;
+    flex-shrink: 0;
+  }
 }

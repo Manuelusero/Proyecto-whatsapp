@@ -3,15 +3,12 @@
   align-items: center;
   justify-content: space-between;
   padding: 10px;
-  /* margin-left: 32px; */
   width: 100%;
   box-sizing: border-box;
 }
 .contact-info {
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
-  /* margin-left: -20px; */
   width: 100%;
 }
 .contact-link {
@@ -25,7 +22,6 @@
   margin-right: 15px;
   align-items: center;
   display: flex;
-  /* font-size: 1.2vw; */
   min-width: 0;
   overflow: hidden;
 }
@@ -36,8 +32,9 @@
   border-radius: 50%;
   margin-right: 15px;
 }
+
 .last-seen {
-  font-size: 10px;
+  font-size: 13px;
   color: grey;
   margin-right: 5%;
 }
