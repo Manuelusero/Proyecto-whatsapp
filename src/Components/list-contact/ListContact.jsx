@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from "react";
 import "./ListContact.css";
-import Contact from "../Contact/Contact";
+import Contact from "../contact/Contact";
 
 const ListContact = ({ DATA_MOOK }) => {
   const [searchTerm, setSearchTerm] = useState("");
